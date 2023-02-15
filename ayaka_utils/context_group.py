@@ -1,12 +1,7 @@
 '''上下文'''
 from contextvars import ContextVar
+from .utils import Undefined
 
-
-class UndefinedType:
-    pass
-
-
-Undefined = UndefinedType()
 context_dict: dict[str, ContextVar] = {}
 
 

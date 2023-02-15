@@ -1,3 +1,10 @@
+class UndefinedType:
+    pass
+
+
+Undefined = UndefinedType()
+
+
 def singleton(cls):
     '''单例模式的装饰器'''
     result = None
