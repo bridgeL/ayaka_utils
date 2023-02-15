@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ayaka-utils"
-version = "0.0.1"
+version = "0.0.2"
 description = ""
 authors = ["Su <wxlxy316@163.com>"]
 readme = "README.md"
